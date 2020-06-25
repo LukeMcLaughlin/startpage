@@ -1,9 +1,12 @@
+/* JS TO PRODUCE AN ACCURATE DATE DISPLAY 
+(GB FORMAT) */
+
 function currentDate() {
-  let n = new Date();
-  let y = n.getFullYear();
-  let m = n.getMonth() + 1;
-  let d = n.getDate();
-  document.getElementById("date").innerHTML = m + "." + d + "." + y;
+  let newDate = new Date();
+  let year = newDate.getFullYear();
+  let month = newDate.getMonth() + 1;
+  let day = newDate.getDate();
+  document.getElementById("date").innerHTML = day + "." + month + "." + year;
 }
 
 currentDate();
