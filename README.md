@@ -1,2 +1,2 @@
 # Startpage
-### Custom Chrome startpage using html/css/js
+### Custom Chromium startpage using css/js
